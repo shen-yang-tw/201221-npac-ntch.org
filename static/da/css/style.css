@@ -1,0 +1,53 @@
+html,
+body {
+  height: auto;
+}
+
+#viewIndex-container .page-location {
+  top: 100px;
+}
+
+#image-wrapper,
+#fullImage-container .view-image-style {
+  max-width: 100%;
+  width    : 100%;
+}
+
+#fullImage-container {
+  max-width  : 780px;
+  margin     : auto;
+  overflow   : hidden;
+  position   : relative;
+  padding-top: 100%;
+  /* 1       :1 Aspect Ratio */
+}
+
+#fullImage-container .view-image-style {
+  display: block;
+  object-fit: cover;
+  height: 100%;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+
+@media screen and (min-width:768px) {
+  #fullImage-container {
+    margin-top: 120px;
+  }
+}
+@media screen and (min-width:780px) {
+  #fullImage-container {
+    padding-top: 600px;
+  }
+  #viewSectionTemplate {
+    width: 780px;
+  }
+}
+
+@media screen and (min-width:1024px) {
+  #viewIndex-container .page-location {
+    top: 150px;
+  }  
+}
