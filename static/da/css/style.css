@@ -5,11 +5,6 @@ body {
   overflow-x: hidden;
 }
 
-/* html::-webkit-scrollbar,
-body::-webkit-scrollbar {
-  display: none;
-} */
-
 #viewIndex-container .page-location {
   top: 100px;
 }
