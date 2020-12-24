@@ -38,6 +38,31 @@ body {
   display: block;
 }
 
+.uk-progress::-webkit-progress-value {
+  background-color: #ffc164 ;
+}
+.uk-progress::-moz-progress-bar {
+  background-color: #ffc164 ;
+}
+.uk-progress::-ms-fill {
+  background-color: #ffc164 ;
+}
+.uk-icon, a.star:hover svg polygon {
+  color: #ffc164;
+}
+.star svg polygon {
+  fill: #ffc164;
+}
+/* .uk-link-toggle:focus .uk-link, .uk-link-toggle:hover .uk-link, .uk-link:hover, a.uk-icon:hover {
+  color: #e4ad5a;
+}
+.star.rated svg polygon, a.star:hover svg polygon {
+  fill: #ffc164;
+}
+a.star.rated:hover svg polygon {
+  fill: #e4ad5a;
+} */
+
 @media screen and (min-width:768px) {
   #fullImage-container {
     margin-top: 120px;
