@@ -74,6 +74,20 @@ a.star.rated:hover svg polygon {
 }
 /* /2021-1-13 */
 
+/* 2021-1-18 */
+#carousel .carousel-text-block {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+@media screen and (max-width:1023px) {
+#carousel .carousel-text-block .slide-text-container {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+}
+/* /2021-1-18 */
+
 @media screen and (min-width:768px) {
   #fullImage-container {
     margin-top: 120px;
